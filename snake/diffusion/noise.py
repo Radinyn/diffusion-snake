@@ -3,10 +3,6 @@ import matplotlib.pyplot as plt
 import torchvision.transforms as transforms
 from torchvision.utils import make_grid
 from dataclasses import dataclass
-from typing import TYPE_CHECKING
-
-if TYPE_CHECKING:
-    pass
 
 
 @dataclass
